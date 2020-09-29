@@ -1,0 +1,18 @@
+ul {
+   width: 300px;
+   height: 200px;
+   background-color: #eee9d6;
+   border: dashed 20px #ca443b;
+   padding-right: 40px;
+   
+
+}
+
+li {
+	list-style-type: none;
+}
+
+li,ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}

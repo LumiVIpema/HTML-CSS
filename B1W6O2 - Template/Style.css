@@ -1,0 +1,45 @@
+body {
+    background: url(image/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+header nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 10px 10px 10px;
+    color: white;
+    background-color: gray;
+    margin-right: 1px;
+}
+
+div {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 37%;
+}
+
+div li {
+    display: inline-block;
+    padding: 25px;
+}
+
+div li a i {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+div li a {
+    color: rgb(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}

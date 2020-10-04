@@ -1,0 +1,70 @@
+
+div {
+    width: 100vh; /*vh is viewport height this makes sure it does stay at the same height at all times even when the page is made smaller*/
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif; /*A google font being executed in the whole div*/
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+
+p:nth-of-type(1) { /*end of type for the first paragraph this makes sure that the second paragraph gets its own layout*/
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+li  {
+    margin-bottom: 10px;
+}
+
+p:nth-of-type(2) { 
+    background-color: #e0f6ed;
+    border-radius: 4px;
+    padding: 25px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e0f6ed;;
+}
+
+.menu {
+    float: left;
+}
+
+li a { /*Style for the text in navigation bar*/
+     display: block;
+     color: black;
+     text-align: center;
+     padding: 14px 55px;
+     padding-top: 14px;
+     text-decoration: none;
+}
+
+.active {
+    background-color: #004d4d;
+    color: white;
+}
